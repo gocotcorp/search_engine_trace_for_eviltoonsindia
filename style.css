@@ -1,0 +1,47 @@
+body {
+  font-family: arial;
+  background: #D2D2D2;
+}
+
+input{
+  border: 1px solid black;
+  background: white;
+  color: darkcyan;
+  height: 50px;
+  width: 200px;
+  padding-left: 20px;
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+  outline: none;
+}
+input:hover{
+  border: 3px solid #BCC2FF;
+/*  outline: 2px solid mediumaquamarine;*/
+}
+
+button{
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  font-family: serif;
+  background-color: #FE4F4F;
+  color: white;
+  border: 0px solid #FE4F4F;
+  border-radius: 5px;
+  transition: 0.4s;
+  outline: none;
+}
+button:hover{
+  background: indianred;
+}
+.div{
+  margin-top: 50%;
+  height: 300px;
+  width: 90%;
+  background: white;
+  padding-top: 30px;
+  font-family: cursive;
+  box-shadow: 0px 0px 10px black;
+}
